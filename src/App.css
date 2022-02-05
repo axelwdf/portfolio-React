@@ -1,0 +1,16 @@
+*{
+  padding: 0pz;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+-fab fa-html5{
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+}
+.orange{
+  color: orange;
+}

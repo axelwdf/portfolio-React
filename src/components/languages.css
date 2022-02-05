@@ -1,0 +1,16 @@
+.tool-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tool{
+    margin: 10px;
+}
+.icon-lan{
+    width: 50px;
+}
+img{
+    width: 50px;
+}
+.h3{
+    padding: 30px;
+}

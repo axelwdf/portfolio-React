@@ -1,0 +1,95 @@
+@media only screen and (min-width:639px){
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+    /* nav and header */
+    .name{
+        font-size: 30px;
+    }
+    .ul-ch{
+        font-size: 15px;
+        margin: 5px auto;
+        padding: 10px;
+    }
+    .h1{
+        font-size: 35px;
+        font-family: 'Zen Kurenaido', sans-serif;
+    }
+    .typical{
+        font-size: 25px;
+        font-family: 'Zen Kurenaido', sans-serif;
+    }
+
+    /* proyectos y clientes */
+    .img-container{
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+    }
+    .img-clients{
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .Nav{
+        background-color: rgba(0, 0, 0, 0.55);
+    }
+    .name{
+        font-size: 30px;
+    }
+    .name-ch{
+        font-size: 50px;
+    }
+    .ul-ch{
+        font-size: 1.7rem;
+    }
+    .h1{
+        font-size: 2.5rem;
+    }
+    .typical{
+        font-size: 5rem;
+    }
+
+    /* about */
+    .h2{
+        font-size: 2.5rem ;
+    }
+    .about-text{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .img-clients{
+        width: 60vmin;
+    }
+    /* services */
+    .Services{
+        font-size: 1.5rem;
+    }
+    .bi-code{
+        width: 5vmin;
+        height: 5vmin;
+    }
+
+    /* languages */
+    .h3-lan{
+        font-size: 2.3rem;
+        padding: 50px;
+    }
+    .icon-lan{
+        width: 10vmin;
+        margin: 15px;
+    }
+}
+
+@media only screen and (min-width:1366px){
+    .img-container{
+        background-color: #F0F0F0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10rem;
+        border-radius: .5rem;
+        box-shadow: 1px 1px 10px 5px #B36802;
+    }
+    .img-clients{
+        width: 50vmin;
+        margin: 2rem;
+    }
+}

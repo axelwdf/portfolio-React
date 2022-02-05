@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+.AboutMe{
+    background-color: #F0F0F0;
+    padding: 30px;
+}
+.photo{
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 2px #000;
+    padding: 5px;
+    margin: 20px;
+}
+.about-text{
+    color: #000;
+    gap: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+.icon-start{
+    display: flex;
+}
+.icon-end{
+    display: flex;
+    justify-content: flex-end;
+}
